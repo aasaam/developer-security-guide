@@ -8,23 +8,9 @@
 [![open-pull-requests](https://flat.badgen.net/github/open-prs/aasaam/developer-security-guide)](https://github.com/aasaam/developer-security-guide/pulls)
 [![license](https://flat.badgen.net/github/license/aasaam/developer-security-guide)](./LICENSE)
 
-Use following approach for get best practices to store **ssh**, **gpg**, **git** and etc.
+## Instructions
 
-Remember one password and store all of your password/paraphrase and use random secure password using [KeePassXC](https://keepassxc.org/).
-
-## Requirement
-
-Install **Ubuntu** and use **KeePassXC**
-
-```shell
-sudo apt install keepassxc
-```
-
-If you are developer and using git try to use [Commitizen](http://commitizen.github.io/cz-cli/)
-
-```bash
-sudo npm install -g commitizen
-```
+Install **Ubuntu** and follow the [instructions](./UBUNTU-FOCAL.md)
 
 ## Notes
 
