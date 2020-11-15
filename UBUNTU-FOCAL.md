@@ -124,3 +124,13 @@ sudo npm -g update
 ```bash
 sudo pip3 install ansible
 ```
+
+### Git
+
+If you are developer and using git try to use [Commitizen](http://commitizen.github.io/cz-cli/)
+
+```bash
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@DOMAIN.TLD"
+sudo npm install -g commitizen
+```
