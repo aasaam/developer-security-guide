@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright (c) 2021 aasaam software development group
 
 export TZ=UTC
 
@@ -49,10 +50,10 @@ echo -e "${CYAN}Enter sudo password:${SET}"
 sudo apt-get install -y -qq gpg gpgv2 gnupg2 git openssh-client p7zip-full pwgen
 
 echo -e "${YELLOW}Random password for usage ========================================= ${SET}"
-pwgen -n 16 -1
-pwgen -n 16 -1
-pwgen -n 16 -1
-pwgen -n 16 -1
+pwgen -n 32 -s -1
+pwgen -n 32 -s -1
+pwgen -n 32 -s -1
+pwgen -n 32 -s -1
 echo -e "${YELLOW}=================================================================== ${SET}"
 
 echo -e "${YELLOW}Enter SSH passphrase:${SET}"
@@ -102,7 +103,7 @@ echo -e "${GREEN}Done.${SET}"
 
 render_template $PROJECT_PATH/templates/.gitconfig > $CLIENT_HOME/.gitconfig
 
-Z7Z_PASS=`pwgen -n 32 -1`
+Z7Z_PASS=`pwgen -n 32 -s -1`
 
 render_template $PROJECT_PATH/templates/README.md > $CLIENT_DIR/README.md
 cp $PROJECT_PATH/templates/.czrc > $CLIENT_HOME/.czrc
