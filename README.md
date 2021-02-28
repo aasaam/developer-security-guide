@@ -7,7 +7,7 @@
   </p>
   <p>
     <a href="http://commitizen.github.io/cz-cli/"><img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"></a>
-    <a href="https://github.com/aasaam/developer-security-guide/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/aasaam/developer-security-guide"></a>
+    <a href="https://github.com/aasaam/developer-security-guide/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/aasaam/developer-security-guide"></a>
   </p>
 </div>
 
